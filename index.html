@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Task Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Study Task Tracker</h1>
+    <p>Organize your assignments and keep track of what needs to be done.</p>
+  </header>
+
+  <nav>
+    <a href="#add-task">Add Task</a>
+    <a href="#task-list">Tasks</a>
+  </nav>
+
+  <main>
+    <section id="add-task" class="card">
+      <h2>Add a New Task</h2>
+
+      <form id="taskForm">
+        <label for="taskName">Task Name</label>
+        <input type="text" id="taskName" required />
+
+        <label for="courseName">Course</label>
+        <input type="text" id="courseName" required />
+
+        <label for="dueDate">Due Date</label>
+        <input type="date" id="dueDate" required />
+
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <section id="task-list" class="card">
+      <h2>My Tasks</h2>
+      <div id="tasksContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Study Task Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
