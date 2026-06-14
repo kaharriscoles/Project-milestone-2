@@ -35,3 +35,4 @@ This milestone adds a Node.js and Express backend to the client-side prototype.
 
 ```bash
 npm install
+Preparing Milestone 2 pull request
