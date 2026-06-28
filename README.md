@@ -1,4 +1,4 @@
-# Project milestone 1
+# Project-milestone-1
 ## Features
 
 - Semantic HTML5 structure
@@ -14,7 +14,8 @@
 - CSS
 - JavaScript
 - localStorage
-- ## Milestone 2
+
+## Milestone 2
 
 This milestone adds a Node.js and Express backend to the client-side prototype.
 
